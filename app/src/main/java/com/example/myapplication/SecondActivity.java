@@ -19,6 +19,8 @@ public class SecondActivity extends AppCompatActivity {
         // read extra
         String name = intent.getStringExtra("name");
         //update view
+        
+        //MASTER CHANGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
         txtGreeting.setText("Hello there, "+name + "!!");
 

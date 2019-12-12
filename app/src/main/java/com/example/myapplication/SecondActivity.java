@@ -18,9 +18,10 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = getIntent();
         // read extra
         String name = intent.getStringExtra("name");
+        int age = intent.getIntExtra("age", 0);
         //update view
 
-        txtGreeting.setText("Hello there dear, "+name + "!!");
+        txtGreeting.setText("Hello there dear, "+name + " you are "+age+" years old");
 
     }
 }

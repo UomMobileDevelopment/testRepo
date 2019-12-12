@@ -22,7 +22,7 @@ public class SecondActivity extends AppCompatActivity {
         //update view
         
         //MASTER CHANGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        int result = age * 34;
+        int result = age * 156 - 800 + 17 *98;
 
         txtGreeting.setText("Hello there dear, "+name + " you are "+age+" years old");
 

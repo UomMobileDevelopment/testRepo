@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
         String name = intent.getStringExtra("name");
         //update view
 
-        txtGreeting.setText("Hello there, "+name + "!!");
+        txtGreeting.setText("Hello there dear, "+name + "!!");
 
     }
 }
